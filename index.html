@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FireNotes App</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/icons.css" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/" />
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <div class="app-brand">
+          <img src="./logo.png" alt="Logo" />
+          <span>FireNotes</span>
+        </div>
+
+        <div class="app-buttons">
+          <button id="new" class="icon-plus"></button>
+        </div>
+      </nav>
+
+      <section class="notes-compose">
+        <input type="text" placeholder="Titulo" id="title" />
+        <textarea placeholder="Descripción" id="description"></textarea>
+
+        <div class="buttons">
+          <button id="add" class="disabled">Agregar</button>
+          <button id="cancel">Cancelar</button>
+        </div>
+      </section>
+
+      <section class="notes-list"></section>
+
+      <footer>FireNotes App &copy; 2022</footer>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

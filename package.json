@@ -1,0 +1,16 @@
+{
+  "name": "firenotes-app",
+  "version": "1.0.0",
+  "description": "A progressive note web app in javascript",
+  "main": "main.js",
+  "scripts": {
+    "serve": "servor . index.html 1234",
+    "dev": "servor . index.html 3000 --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "servor": "4.0.2"
+  }
+}

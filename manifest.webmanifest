@@ -1,0 +1,18 @@
+{
+  "theme_color": "#ff7f50",
+  "background_color": "#fff",
+  "lang": "es",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "FireNotes App",
+  "short_name": "FireNotes App",
+  "description": "Digital book notes!",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    }
+  ]
+}
