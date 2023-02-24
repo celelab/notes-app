@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 
-export default defineConfig(({ mode }) => ({
-  base: (mode === 'build' ? '/notes-app/' : '/'),
+export default defineConfig({
+  base: '/notes-app/',
   build: {
     outDir: 'build',
   },
-}))
+})
