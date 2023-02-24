@@ -10,7 +10,7 @@
   "description": "Digital book notes!",
   "icons": [
     {
-      "src": "/logo.png",
+      "src": "/src/assets/notes.webp",
       "sizes": "400x400",
       "type": "image/png"
     }

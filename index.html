@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FireNotes App</title>
-    <link rel="shortcut icon" href="./logo.png" type="image/png">
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/icons.css" />
-    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>Notes App</title>
+    <link rel="shortcut icon" href="/src/assets/notes.webp" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="msapplication-starturl" content="/" />
@@ -17,8 +15,8 @@
     <div id="app">
       <nav>
         <div class="app-brand">
-          <img src="./logo.png" alt="Logo" />
-          <span>FireNotes</span>
+          <img src="/src/assets/notes.webp" alt="Logo" />
+          <span>Notes App</span>
         </div>
 
         <div class="app-buttons">
@@ -38,8 +36,16 @@
 
       <section class="notes-list"></section>
 
-      <footer>FireNotes App &copy; 2022</footer>
+      <footer>
+        Notes App Designer by
+        <a
+          href="http://github.com/gabriedev"
+          target="_blank"
+          rel="noopener noreferrer"
+          >gabriedev</a
+        >
+      </footer>
     </div>
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
